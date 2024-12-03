@@ -1,0 +1,255 @@
+#div1{
+	float:left;
+	width:100%;
+	padding:10px 20px;
+	z-index:1;
+	font-family:Times New Roman;
+	background-image: url('background.JPG');
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:600px;
+	background-attachment: fixed;
+}
+#div2{
+	background-image: linear-gradient(to right,#003366,white );
+	padding:5px 2px;
+	border-radius:10px;
+	width:100%;
+	height:60px;
+}
+h1{
+	text-align:center;
+}
+#div3{
+	float:left;
+	width:300px;
+	height:500px;
+	font-family:Times New Roman;
+	background-image: linear-gradient(to right,white,#003366 );
+	border-style:outset;
+	border-radius:10px;
+	margin:0;
+	padding:40px 20px;
+	z-index:2;
+	position:relative;
+	bottom:90px;
+}
+#div4{
+	float:left;
+	font-family:Times New Roman;
+	background-color:#FFFFD5;
+	background-size:cover;
+	opacity:0.6;
+	border-radius:10px;
+	position: absolute;
+	left:30%;
+	right:10%;
+	height:440px;
+	padding:5px 10px 5px 100px;
+	border:solid;	
+	z-index: 4;
+
+}
+#div6, #div7, #div8, #div9, #div10, #div11 {
+    float: left;
+    font-family: Times New Roman;
+    background-color: #FFFFD5;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    left: 1%;
+    right: 30%;
+	top:0%;
+    height: 320px; 
+    padding: 5px 10px 5px 100px;
+	z-index: 6;
+
+}
+
+h3{
+	text-align:left;
+	font-size:28px;
+}
+.select{
+	position: relative;
+	bottom:20px;
+	padding:5px 250px;
+	width:fit-content;
+	background-color:#b8cae2;
+	margin:5px 5px 20px 5px;
+}
+.input_box{
+	position:relative;
+	bottom:10px;
+	padding:5px 100px;
+	border-radius: 5px;
+	margin: 1%;
+	border-style: dashed;
+	
+}
+.para1{
+	text-align:center;
+	position: relative;
+	top:350px;
+}
+.para2{
+	text-align: center;
+}
+#para2{
+	font-size:16px;
+	position:relative;
+	bottom:10px;
+}
+.proceed{
+	position:relative;
+	top:30px;
+	right:70px;
+	border-radius:6px;
+
+}
+.btn1{
+	border-radius:6px;
+	width:120px;
+	height:120px;
+	background-color:white;
+	margin:10px;
+}
+.btn1:hover{
+	opacity:0.6;
+}
+.header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px; 
+      background-color: #003366 ;
+      color: #FFFFFF (White);
+	  width:100%;
+      
+    }
+
+
+.header-logo {
+      flex: 1;
+    }
+
+    .header-logo img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .header-topic {
+      flex: 2; 
+      text-align: center;
+      font-size: 24px;
+      color: white;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 1000;
+    font-style: italic;
+    text-align:center;
+    }
+
+
+    .profile-section {
+      flex: 1; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .profile-picture {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%; 
+    }
+
+    .profile-button {
+      margin-top: 10px; 
+      background-color: #FF6600; 
+      color: #fff; 
+      padding: 5px 10px; 
+      border: none;
+      cursor: pointer;
+    }
+	#btn1
+	{
+	margin-top: 10px; 
+      background-color:#FF6600 ;
+      color: #fff;
+      padding: 5px 5px; 
+      border: none;
+      cursor: pointer;
+	}
+	.navi ul
+	
+{ list-style-type: none;
+      margin: 0;
+      padding: 10px;
+      padding-top: 10px;
+      overflow: hidden;
+      background-color:#FF6600 ; 
+     height:30px;
+	 width:100%;
+}
+.navi li{
+	display:inline-block;
+	margin-right: 30px;
+
+}
+.navi a{
+	
+      color: white;
+      text-align: center;
+      padding: 12px 12px;
+      text-decoration: none;
+	
+}
+.navi a:hover
+{
+	color:white;
+  display: content;
+	
+}
+li.navi a:active {
+    background: linear-gradient(45deg, #ff6b6b, #ffa04b);
+	color: white;
+}
+.navi a:hover {
+	color: #FF6600;
+	background-color: white;
+  }
+  /******Footer Section******/
+.footer {
+    background-color:#003366;
+    color: #fff;
+	height: 900px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.left_box {
+	position: relative;
+	top:30px;
+    flex: 1;
+    padding: 50px 600px 100px 200px;
+    box-sizing: border-box;
+}
+.middle_box {
+	position: relative;
+	bottom:280px;
+    padding: 50px 100px 10px 980px;
+}
+.branch{
+	position: relative;
+	right:40px;
+}
+.email_box{
+	width: 350px;
+	height: 20px;	
+}
+.email_btn{
+	margin-top: 10px;
+	background-color: #007bff;
+	border-radius: 6px;
+	height: 25px;
+	width: 50px;
+}

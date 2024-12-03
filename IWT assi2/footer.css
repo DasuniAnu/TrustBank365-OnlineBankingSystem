@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/* Style the container and center its contents */
+.footer {
+    background-color:#003366;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.branch{
+    
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style the boxes */
+.box {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Style the "About Us" box */
+.left.box .topic {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style the "Contact Us" box */
+.phone a,
+.email a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+}
+
+.phone a:hover,
+.email a:hover {
+    text-decoration: underline;
+}
+
+/* Style the "Our Services" box */
+.middle.box .topic {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.middle.box a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+}
+
+.middle.box a:hover {
+    text-decoration: underline;
+}
+
+/* Style the "Send Your Complaint" box */
+.right.box .topic {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+

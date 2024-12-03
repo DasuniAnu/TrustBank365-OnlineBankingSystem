@@ -1,0 +1,45 @@
+h1{
+    text-align: center ;
+}
+
+.PaymentHistory{
+        background-image: url('IWT ASSIGNMENT2/images/pics.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        background-position: center;
+        background: linear-gradient;
+} 
+
+main {
+    max-width: 800px;
+    height: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.balance {
+    text-align: center;
+}
+
+#balance_display {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+#refresh {
+    background-color:#003366 ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: px;
+    cursor: pointer;
+}
+
+#refresh:hover {
+    background-color:#FF6600 ;
+}
+      
+   
