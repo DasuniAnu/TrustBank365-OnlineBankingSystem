@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="loan2.css">
+  <link rel="stylesheet" href="header&footer.css"> 
+  
+  <script>function calculateLoan() {
+    const loanAmount = parseFloat(document.getElementById("loanAmount").value);
+    const annualInterestRate = parseFloat(document.getElementById("interestRate").value);
+    const loanMonths = parseInt(document.getElementById("loanMonths").value);
+
+    const monthlyInterestRate = (annualInterestRate / 12) / 100;
+    const monthlyPayment = (loanAmount * monthlyInterestRate) +(loanAmount/12);
+    const totalPayment = monthlyPayment * loanMonths;
+
+    document.getElementById("monthlyPayment").textContent = "$" + monthlyPayment.toFixed(2);
+    document.getElementById("totalPayment").textContent = "$" + totalPayment.toFixed(2);
+
+    document.getElementById("result").style.display = "block";
+}</script>
+  
+</head>
+<body>
+  <div class="header">
+    <div class="header-logo">
+      <img src="images/logo4.jpg" alt="Logo" width="120px">
+    </div>
+    <div class="header-topic">
+      <h1>Trust Bank 365</h1>
+    </div>
+    <button class="button" type="button" id="btn1" >LOG OUT</button>
+    <div class="profile-section">
+      <img src="images/profile.jpeg" alt="Profile Picture" class="profile-picture">
+      <button class="profile-button">Profile</button>
+    
+    </div>
+  </div>
+  <div class="navi">
+    <ul>
+      <li><a href="/trustbank365/Shan/Home.html">HOME</a></li>
+      <li><a href="/trustbank365/Trustbank/signin2.html">LOGIN</a></li>
+      <li><a href="/trustbank365/IWT ASSIGNMENT2/Registrationpage.html">REGISTRARTION</a></li>
+      <li><a href="/trustbank365/Ishara/Accounts_page.html">ACCOUNTS</a></li>
+      <li><a href="/trustbank365/IWT assi2/Payment history.html">PAYMENT HISTORY</a></li>
+      <li><a href="/trustbank365/Trustbank/transferMoney.html">TRANSACTIONS</a></li>
+      <li><a href="/trustbank365/Ishara/Bill Payment.html">BILL PAYEMNTS</a></li>
+      <li><a href="/trustbank365/IWT ASSIGNMENT2/loan.html">LOANS</a></li>
+      <li><a href="/trustbank365/IWT assi2/contact_us.html">CONTACT US</a></li>
+      <li><a href="/trustbank365/Shan/FAQ.html">FAQs</a></li>
+      </ul></div><hr>
+  <div class="loan-calculator" method="post">
+    <div class="top">
+      
+      <form action="loan.php" method="post" class= "loan-form2">
+        <h3>To ask more information about loans </h3>
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id" required><br><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="contactNumber">Contact Number:</label>
+        <input type="tel" id="contactNumber" name="contactNumber" required><br><br>
+        <input type="submit" id="submit">
+        <h2>Loan Calulator</h2>
+      </form>
+      <form action="#">
+        <label for="loanAmount">Loan Amount:</label>
+        <input type="number" id="loanAmount" required><br><br>
+
+        <label for="interestRate">Annual Interest Rate (%):</label>
+        <input type="number" id="interestRate" required><br><br>
+
+        <label for="loanMonths">Loan Duration (months):</label>
+        <input type="number" id="loanMonths" required><br><br>
+
+        
+      </form>
+      </div>
+      <div class="result">
+        <div class="left">
+          
+
+          <div id="result" style="display: none;">
+            <h2>Loan Calculation Result</h2>
+            <p>Monthly Payment: <span id="monthlyPayment"></span></p>
+            <p>Total Payment: <span id="totalPayment"></span></p>
+        </div>
+    
+        <button type="button" class="calculate-btn" align="center" onclick="calculateLoan()">Calculate</button>
+                   
+        
+    </div>
+  </div>
+  <div class="footer">
+    <footer>
+      <div class="content">
+        <div class="left box">
+        <div class="upper">
+          <div class="topic">About us</div>
+          <p>Welcome to Trust Bank 365, your trusted partner in modern banking. With a legacy of 20 years in the banking industry, 
+          we have consistently served our valued customers with dedication and innovation.</p>
+        </div>
+        <div class="lower">
+          <div class="topic">Hotline number - 1257</div>
+          
+          <div class="email">
+          <a href="#"><i class="fas fa-envelope"></i>trustbank365@globe.com</a>
+          </div>
+        </div>
+        </div>
+        <div class="middle box">
+        <div class="topic"> <b>Branches</b></div>
+        <h4> <ul class = "branch">
+                 NewYork - main branch <br>
+                 Chicago <br>
+                 Boston</ul></h4>
+        <div class = "icons">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </div>
+        <div class="right box">
+        <div class="topic">Send Your complaint</div>
+        <form action="#">
+          <input type="text" placeholder="Enter email address">
+          <input type="submit" name="" value="Send">
+        </form>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

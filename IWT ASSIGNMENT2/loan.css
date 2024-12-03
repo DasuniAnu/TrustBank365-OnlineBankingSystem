@@ -1,0 +1,56 @@
+
+.separator2{
+    display: flex;
+    justify-content: space-between;
+}
+.separator1{
+    display: flex;
+    justify-content: space-between;
+}
+.label1
+{
+    float:left;
+}
+.label2
+{
+    align-items:right;
+}
+
+
+
+   
+
+.label5{
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    margin: 10px;
+
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+input, button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+}
+

@@ -1,0 +1,46 @@
+
+   
+  .registration-form1 {
+      text-align: center;
+      margin: 20px auto;
+      padding: 20px;
+      border: 3px solid #FF6600;
+      background-color: #f5f5f5;
+      width: 1000px;
+      
+      
+    }
+
+    .form-input {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+
+    .button {
+      background-color: orangered;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+ h3{
+	 text-align:left;
+	 
+ }
+ .registration-form2{/**/
+	 display: grid;
+	 grid-template-columns:50% 50%;
+	 width:100%;
+	 
+ }
+ .form1{
+	 grid-column:1.5;
+	 width:350px;
+ }
+ .form2{
+	 grid-column:1.5;
+	 width:350px;
+ }
+ /*fgg
+ 

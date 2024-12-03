@@ -1,0 +1,58 @@
+/*ref: https://stackoverflow.com/questions/20954521/rounded-border-text-input-css  
+  User in the answer section who provided answer: SW4  
+  Date/Time: 03/10/2023 at 4:30pm, Line 4 to 8*/
+input[type=text]{
+  border-radius:25px;
+  width: 49.055%;
+  height: 30px;
+}
+
+/*ref: https://www.youtube.com/watch?v=9hnJsNIBq1g
+  Date/Time: 04/10/2023 2:37pm */			
+.searchBar button img
+{
+	width: 50%;
+}
+			
+.searchBar button
+{
+	border: 0;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+.questions
+{
+	background-color: #D3D3D3; 
+	opacity:0.8;
+	float: left;
+	border-radius: 25px;
+}
+
+h2
+{
+	color: #003366;
+	padding: 5px;
+}
+
+/* https://stackoverflow.com/questions/69691703/how-can-i-show-a-hidden-text-by-clicking-on-a-button
+   User: https://stackoverflow.com/users/1686626/reflective in comment section provided code. 
+   Date/Time: 11/10/2023 4:13pm, Line 43 to 49 */
+#myDIV1{ display: none;}
+#myDIV2{ display: none;}
+#myDIV3{ display: none;}
+#myDIV4{ display: none;}
+#myDIV5{ display: none;}
+#myDIV6{ display: none;}
+#myDIV7{ display: none;}
+
+
+.questions button
+{
+	background-color: #D3D3D3; 
+	border-radius: 25px;
+	border: none;
+}	
+
