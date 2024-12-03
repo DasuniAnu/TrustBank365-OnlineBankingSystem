@@ -1,0 +1,117 @@
+body{
+    background-color: white;
+    background:linear-gradient();
+    background-position:center;
+    background-image:url("pics.jpg");
+    background-size:cover;
+
+}
+.topic
+{
+text-align:center;
+color: black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: white;
+
+}
+.fieldset
+{
+    margin-left: 36%;
+    width:400px;
+   
+    text-decoration: none;
+    height: fit-content;
+    border:3px solid #FF6600;
+    color:  black;
+    background-color: white;
+    border-radius: 10%;
+    box-sizing: border-box;
+    box-shadow: 2px 8px;
+
+
+
+
+}
+
+
+
+
+
+.confirmbutton
+{
+    background-color: #FF6600;
+    padding: 10px 25px;/*sign up button size*/
+    font-size: 18px;
+    border:none;
+    border-radius:6px ;/*signin button*/
+    width:150;
+}
+.confirmbutton:hover
+{
+    background-color: white;
+    border:solid black;
+}
+
+.savebutton{
+   
+    background-color: #e9ac84;
+    padding: 10px 25px;/*sign up button size*/
+    font-size: 18px;
+    border:none;
+    border-radius:6px ;/*signin button*/
+    width:150;
+    display:inline-block;
+    
+}
+.savebutton:hover
+{
+    background-color: white;
+    border:solid black;
+}
+.deletebutton
+{
+    background-color: #e9ac84;
+    padding: 10px 25px;/*sign up button size*/
+    font-size: 18px;
+    border:none;
+    border-radius:6px ;/*signin button*/
+    width:150;
+    display:inline-block;
+}
+.deletebutton:hover
+{
+    background-color: white;
+    border:solid black;
+}
+.editbutton
+{
+    background-color: #e9ac84;
+    padding: 10px 25px;/*sign up button size*/
+    font-size: 18px;
+    border:none;
+    border-radius:6px ;/*signin button*/
+    width:150;
+    display:inline-block;
+}
+.editbutton:hover
+{
+    background-color: white;
+    border:solid black;
+}
+.confirmbutton2
+{
+    background-color: #FF6600;
+    padding: 10px 25px;/*sign up button size*/
+    font-size: 18px;
+    border:none;
+    border-radius:6px ;/*signin button*/
+    width:150;
+    display:inline-block;
+}
+.confirmbutton:hover
+{
+    background-color: white;
+    border:solid black;
+}
+
+

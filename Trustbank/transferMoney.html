@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> TransferMoney|www.trustbank365.com</title>
+    <link rel  ="stylesheet" href="reg1.css">
+    <link rel  ="stylesheet" href="stylesheet2.css">
+   
+    <script>
+      function payment()
+  {
+      const username = document.getElementById('data7').value;
+      const password = document.getElementById('data8').value;
+
+
+      var validUsername = 'shehara';
+      var validPassword = 1234;
+
+      // Check if the entered credentials are valid
+      if (username == validUsername && password == validPassword) {
+        alert('Payment Successful.');
+
+        // You can redirect the user to the home page or perform other actions here
+      } else 
+      {
+        alert('Invalid username or password. Please try again.');
+        
+      }
+    }
+  </script>
+    
+    
+        
+        
+    </head>
+
+        <body>
+            <div class="header">                                                                         <!-- header -->
+                <div class="header-logo">
+                  <img src="logo.jpeg" alt="Logo" width="120px">
+                </div>
+                <div class="header-topic">
+                  <h1>Trust Bank 365</h1>
+                </div>
+                <button class="button" type="button" id="btn1" >LOG OUT</button>
+                <div class="profile-section">
+                  <img src="pp.jpg" alt="Profile Picture" class="profile-picture">
+                  <button class="profile-button">Profile</button>
+                  
+                </div>
+              </div>
+              <div class="navi">
+                <ul>
+                  <li><a href="/trustbank365/Shan/Home.html">HOME</a></li>
+                  <li><a href="/trustbank365/Trustbank/signin2.html">LOGIN</a></li>
+                  <li><a href="/trustbank365/IWT ASSIGNMENT2/Registrationpage.html">REGISTRARTION</a></li>
+                  <li><a href="/trustbank365/Ishara/Accounts_page.html">ACCOUNTS</a></li>
+                  <li><a href="/trustbank365/IWT assi2/Payment history.html">PAYMENT HISTORY</a></li>
+                  <li><a href="/trustbank365/Trustbank/transferMoney.html">TRANSACTIONS</a></li>
+                  <li><a href="/trustbank365/Ishara/Bill Payment.html">BILL PAYEMNTS</a></li>
+                  <li><a href="/trustbank365/IWT ASSIGNMENT2/loan.html">LOANS</a></li>
+                  <li><a href="/trustbank365/IWT assi2/contact_us.html">CONTACT US</a></li>
+                  <li><a href="/trustbank365/Shan/FAQ.html">FAQs</a></li>
+                  </ul></div>
+            <br>
+                   
+            <!-- header -->
+            
+            <h1 class="topic"><u><strong><i class="fa-solid fa-money-bill"></i>Transfer money</u></strong></h1>
+          <section>
+                 <div>
+
+                </div>
+                <div >
+                    <form action="transfermoney.php" method = "post" target="_blank" name="form">
+                    <fieldset class="fieldset">
+                      <table>
+                  <tr>
+                    <td> <lable for="data1">To Account Number : </lable></td>
+                    <td><input type ="text" id="data1" name="data" placeholder="1234-5678-9045-2345" class="data" required><br><br></td>
+                  </tr> 
+                  <tr>
+                    <td><lable for="data2">From Account Number:</lable></td>
+                    <td><input type ="text" id="data2" name="data2" placeholder="1234-5678-9045-2345" required class="data"><br><br></td>
+                  </tr>
+                  <tr>
+                    <td><lable for="data3">Transfer Amount : Rs </lable></td>
+                    <td><input type ="text" id="data3" name="data3" placeholder="1234.00" class="data" required><br><br></td>
+                   </tr>
+                 
+                  <tr>
+                    <td><lable for="data5">Sender Remarks : </lable></td>
+                    <td><input type ="text" id="data5" name="data5" class="data" ><br><br></td>
+                  </tr>
+                  <tr>
+                    <td><lable for="data6">Beneficiary Remarks : </lable></td>
+                    <td><input type ="text" id="data6" name="data6" class="data" ><br><br></td>
+                </tr>
+                <tr><td><strong><u>confirm payment</u></strong></tr></td>
+                <tr>
+                  <td><lable for="data7">Enter Username : </lable></td>
+                  <td> <input type ="text" id="data7" name="data7" class="data"required ><br><br></td>
+                </tr>
+                <tr>
+                  <td><lable for="data8">Password   : </lable></td>
+                  <td><input type ="text" id="data8" name="data8"class="data"required ><br><br> </td>
+                  </tr>
+                  
+                  
+                   <tr> 
+                    
+                  <td>
+                  <button type="submit" value="confirm" class = "confirmbutton" class="data" onclick="payment()">Proceed</button>
+                  </td>
+                  </tr>
+                 
+                </table>
+                
+                </fieldset>
+                
+                                   
+                 
+                 
+                    </form>
+                </div>
+            </section>
+
+            <!--footer -->
+            <div class="footer">
+              <footer>
+                <div class="content">
+                  <div class="left box">
+                  <div class="upper">
+                    <div class="topic">About us</div>
+                    <p>Welcome to Trust Bank 365, your trusted partner in modern banking. With a legacy of 20 years in the banking industry, 
+                    we have consistently served our valued customers with dedication and innovation.</p>
+                  </div>
+                  <div class="lower">
+                    <div class="topic">Hotline number - 1257</div>
+                    
+                    <div class="email">
+                    <a href="#"><i class="fas fa-envelope"></i>trustbank365@globe.com</a>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="middle box">
+                  <div class="topic"> <b>Branches</b></div>
+                  <h4> <ul class = "branch">
+                           NewYork - main branch <br>
+                           Chicago <br>
+                           Boston</ul></h4>
+                  <div class = "icons">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                  </div>
+                  <div class="right box">
+                  <div class="topic">Send Your complaint</div>
+                  <form action="#">
+                    <input type="text" placeholder="Enter email address">
+                    <input type="submit" name="" value="Send">
+                  </form>
+                  </div>
+                </div>
+              </footer>
+            </div>
+          
+       
+
+
+        </body>
+</html>

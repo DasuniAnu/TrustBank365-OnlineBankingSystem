@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Payment History</title>
+    <link rel = "stylesheet" href = "payment history .CSS">
+    <link rel = "stylesheet" href = "Reg.CSS.css">
+    <link rel = "stylesheet" href = "footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      body{
+      background-image: url('pics.jpg');}
+    </style>
+    
+</head>
+<body>
+    <div class="header">
+        <div class="header-logo">
+          <img src="logo4.jpeg.JPEG" alt="Logo" width="120px">
+        </div>
+        <div class="header-topic">
+          <h1>Trust Bank 365</h1>
+        </div>
+        <button class="button" type="button" id="btn1" >LOG OUT</button>
+        <div class="profile-section">
+          <img src="P.JPG" alt="Profile Picture" class="profile-picture">
+          <button class="profile-button">Profile</button>
+          
+        </div>
+      </div>
+      <div class="navi">
+        <ul>
+          <li><a href="/trustbank365/Shan/Home.html">HOME</a></li>
+          <li><a href="/trustbank365/Trustbank/signin2.html">LOGIN</a></li>
+          <li><a href="/trustbank365/IWT ASSIGNMENT2/Registrationpage.html">REGISTRARTION</a></li>
+          <li><a href="/trustbank365/Ishara/Accounts_page.html">ACCOUNTS</a></li>
+          <li><a href="/trustbank365/IWT assi2/Payment history.html">PAYMENT HISTORY</a></li>
+          <li><a href="/trustbank365/Trustbank/transferMoney.html">TRANSACTIONS</a></li>
+          <li><a href="/trustbank365/Ishara/Bill Payment.html">BILL PAYEMNTS</a></li>
+          <li><a href="/trustbank365/IWT ASSIGNMENT2/loan.html">LOANS</a></li>
+          <li><a href="/trustbank365/IWT assi2/contact_us.html">CONTACT US</a></li>
+          <li><a href="">FAQs</a></li>
+          </ul></div>
+
+      <sec>
+        <div class="PaymentHistory">
+            <br><h1>PAYMENT HISTORY</h1>
+            <main>
+            <section class="balance">
+              <h2>Your Account Balance</h2><br>
+              <div id="balance_display">
+                <!-- Balance will be updated dynamically using JavaScript -->
+                $0.00
+              </div>
+              <button id="refresh" onclick="refresh()">Refresh Balance</button>
+              <form id="paymentForm">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required><br><br>
+                
+                <label for="transactionId">Transaction ID:</label>
+                <input type="text" id="transactionId" name="transactionId" required><br><br>
+                
+                <label for="Payee">Payee:</label>
+                <input type="text" id="payee" name="payee" required><br><br>
+                
+                <label for="Method">Withdrawal/Deposite Amount:</label>
+                <input type="text" id="method" name="method" required><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+              <script src="payscript.js"></script>
+            </section>
+            
+          </main>
+          <div class="footer">
+            <footer>
+              <div class="content">
+                <div class="left box">
+                <div class="upper">
+                  <div class="topic">About us</div>
+                  <p>Welcome to Trust Bank 365, your trusted partner in modern banking. With a legacy of 20 years in the banking industry, 
+                  we have consistently served our valued customers with dedication and innovation.</p>
+                </div>
+                <div class="lower">
+                  <div class="topic">Hotline number - 1257</div>
+                  
+                  <div class="email">
+                  <a href="#"><i class="fas fa-envelope"></i>trustbank365@globe.com</a>
+                  </div>
+                </div>
+                </div>
+                <div class="middle box">
+                <div class="topic"> <b>Branches</b></div>
+                <h4> <ul class = "branch">
+                         NewYork - main branch <br>
+                         Chicago <br>
+                         Boston</ul></h4>
+                <div class = "icons">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </div>
+                <div class="right box">
+                <div class="topic">Send Your complaint</div>
+                <form action="#">
+                  <input type="text" placeholder="Enter email address">
+                  <input type="submit" name="" value="Send">
+                </form>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </body>
+      </html>

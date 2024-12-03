@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Sign In|www.trustbank365.com</title>
+    <link rel  ="stylesheet" href="stylesheet.css">
+    <link rel  ="stylesheet" href="Reg1.css">
+
+<script>
+  function login()
+    {
+      const username = document.getElementById('un').value;
+      const password = document.getElementById('pw').value;
+
+
+      var validUsername = 'shehara';
+      var validPassword = 1234;
+
+      // Checking  if the entered details are valid
+      if (username == validUsername && password == validPassword) {
+        alert('Login successful! Redirecting to the home page.');
+
+        //giving access to home page
+      } else 
+      {
+        alert('Invalid username or password. Please try again.');//add home page link
+        
+      }
+
+    }
+
+
+    
+    </script>
+
+</head>
+<body>
+    <div class="header">                                                                         <!-- header -->
+        <div class="header-logo">
+          <img src="logo.jpeg" alt="Logo" width="120px">
+        </div>
+        <div class="header-topic">
+          <h1>Trust Bank 365</u></strong></h1>
+        </div>
+        <button class="button" type="button" id="btn1" >LOG OUT</button>
+        <div class="profile-section">
+          <img src="pp.jpg" alt="Profile Picture" class="profile-picture">
+          <button class="profile-button">Profile</button>
+          
+        </div>
+      </div>
+      <div class="navi">
+        <ul>
+          <li><a href="/trustbank365/Shan/Home.html">HOME</a></li>
+          <li><a href="/trustbank365/Trustbank/signin2.html">LOGIN</a></li>
+          <li><a href="/trustbank365/IWT ASSIGNMENT2/Registrationpage.html">REGISTRARTION</a></li>
+          <li><a href="/trustbank365/Ishara/Accounts_page.html">ACCOUNTS</a></li>
+          <li><a href="/trustbank365/IWT assi2/Payment history.html">PAYMENT HISTORY</a></li>
+          <li><a href="/trustbank365/Trustbank/transferMoney.html">TRANSACTIONS</a></li>
+          <li><a href="/trustbank365/Ishara/Bill Payment.html">BILL PAYEMNTS</a></li>
+          <li><a href="/trustbank365/IWT ASSIGNMENT2/loan.html">LOANS</a></li>
+          <li><a href="/trustbank365/IWT assi2/contact_us.html">CONTACT US</a></li>
+          <li><a href="">FAQs</a></li>
+          </ul></div>
+    <br>
+           
+    <!-- header -->
+
+<div class =pictopicdescription>
+     <div class="header-logo"><!-- dividing page into two parts -->
+    <section class="sign-in">
+       <div class="img">
+        <strong> <h2>Easy, Secure, 24/7 access to your finances.........</h2></strong>   
+           
+            <img class = "pic1" src ="1.jpg" alt="image 1">                                   <!--side picture -->
+            
+            <p class="dis"><i> Empowering you with round-the clock financial management.<br>
+             Our secure platform ensures your access to account details,transfers,<br>
+            bill payments ,and more,Whenever you need it ,providing you with ultimate control over you finances.<br>
+           </i> </p>
+        </div>
+        
+            
+
+        <div class="content">
+    <form  method = "post" action="signin2.php" >              <!--signin page form -->
+        <div class="signin" id="signin">
+        <h1><u><strong>Sign In</u></strong> </h1><br>
+        <div class="formdetails">
+        <label for= "un"> Username</label>
+        <input type ="text" id="un" name="un" placeholder="JohnWick" required><br><br><br>
+        <label for= "pw"> Password</label>
+        <input type ="text" id="pw" name="pw" placeholder="12345678"required><br><br>
+        <input type="submit" value="Sign In" class ="signinbutton" onclick="login()" >
+
+        <p>Don't have an account?</p> <a href="registerllllllll">Register now</a>   <!--add the registration link  -->
+        </div>
+        </div>
+         
+    </form>
+
+        </div>
+    </section>
+   
+
+  
+
+</body>
+</html>

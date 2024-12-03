@@ -1,0 +1,142 @@
+body
+{
+	background:linear-gradient;
+	background-position:Center;
+	background-image: url("images/LBG2.jpg");
+	background-size:cover;
+	background-position: center; 
+	height:109vh;
+    
+}
+    
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px; 
+      background-color: rgba(119, 107, 107, 0.932); 
+      color: rgba(5, 0, 0, 0.952);
+    }
+
+    .header-logo {
+      flex: 1;
+    }
+
+    .header-logo img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .header-topic {
+      flex: 2; 
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .profile-section {
+      flex: 1; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .profile-picture {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%; 
+    }
+
+    .profile-button {
+      margin-top: 10px; 
+      background-color: #007bff; 
+      color: #fff; 
+      padding: 5px 10px; 
+      border: none;
+      cursor: pointer;
+    }
+	#btn1
+	{
+	margin-top: 10px; 
+      background-color: #800000;
+      color: #fff;
+      padding: 5px 5px; 
+      border: none;
+      cursor: pointer;
+	}
+	.navi ul
+	
+{ list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333; 
+	
+}
+.navi li{
+	display:inline-block;
+	margin-right: 60px;
+	
+	
+
+
+}
+.navi a{
+	
+      color: white;
+      text-align: center;
+      padding: 12px 12px;
+      text-decoration: none;
+	
+}
+.navi a:hover
+{
+	color:rgba(255, 72, 0, 0.932);
+	
+}
+li.navi a:active {
+      background: linear-gradient(45deg, #ff6b6b, #ffa04b);
+      color: white;
+}
+ 
+   
+    .registration-form {
+      text-align: center;
+      margin: 20px auto;
+      padding: 20px;
+      border: 3px solid #000000;
+      background-color: #f5f5f5;
+      width: 1000px;
+      
+    }
+
+    .form-input {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+
+    .form-button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+ h3{
+	 text-align:left;
+	 
+ }
+ .regis-form{
+	 display: grid;
+	 grid-template-columns:50% 50%;
+	 width:100%;
+	 
+ }
+ .form1{
+	 grid-column:1.5;
+	 width:350px;
+ }
+ .form2{
+	 grid-column:1.5;
+	 width:350px;
+ }
